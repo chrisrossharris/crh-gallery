@@ -1,7 +1,6 @@
 export const URLS = [
   '/about',
   '/work',
-  '/project/eleuthera',
   '/project/studio-maertens',
   '/project/erika-moreira',
   '/project/bruno-arizio',

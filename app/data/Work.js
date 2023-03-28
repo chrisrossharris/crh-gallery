@@ -60,63 +60,6 @@ export default [
     ]
   },
   {
-    color: '#be9dcc',
-    image: require('../assets/work/eleuthera.jpg'),
-    slug: 'eleuthera',
-    title: 'Eleuthera',
-    information: [
-      {
-        label: 'Category',
-        text: 'Landscape'
-      },
-      {
-        label: 'Date',
-        text: 'November 2019'
-      },
-      {
-        label: 'Technologies',
-        text: 'Canon 5DS · Canon 5D3 · Mavic 2 Pro · Photoshop · HDR · Capture One'
-      },
-      {
-        label: 'Client',
-        text: 'Studio Maertens'
-      }
-    ],
-    url: 'https://studiomaertens.com/',
-    content: [
-      {
-        type: 'screenshot',
-        source: require('../assets/case/eleuthera/1.jpg'),
-        height: 1080,
-        width: 1920
-      },
-      {
-        type: 'screenshot',
-        source: require('../assets/case/eleuthera/2.jpg'),
-        height: 1080,
-        width: 1920
-      },
-      {
-        type: 'screenshot',
-        source: require('../assets/case/eleuthera/3.jpg'),
-        height: 1080,
-        width: 1920
-      },
-      {
-        type: 'screenshot',
-        source: require('../assets/case/eleuthera/4.jpg'),
-        height: 1080,
-        width: 1920
-      },
-      {
-        type: 'screenshot',
-        source: require('../assets/case/eleuthera/5.jpg'),
-        height: 1080,
-        width: 1920
-      }
-    ]
-  },
-  {
     color: '#d3b509',
     image: require('../assets/work/erika-moreira.jpg'),
     slug: 'erika-moreira',
