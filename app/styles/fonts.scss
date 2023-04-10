@@ -4,3 +4,24 @@
   src: url('../fonts/borda-regular.woff2') format('woff2'),
        url('../fonts/borda-regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Borda';
+  font-weight: 400;
+  src: url('../fonts/borda-regular.woff2') format('woff2'),
+       url('../fonts/borda-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}

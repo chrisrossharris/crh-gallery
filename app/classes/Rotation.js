@@ -13,7 +13,7 @@ class Rotation extends Element {
     this.element.innerHTML = `
       <div class="unsupported__wrapper">
         <div class="unsupported__content">
-          <img src="lhbzr.svg" class="unsupported__image">
+          <img src="crh.svg" class="unsupported__image">
 
           <h1 class="unsupported__title">
             Rotate Your Screen

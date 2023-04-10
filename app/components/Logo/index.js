@@ -20,20 +20,18 @@ export default class extends Element {
 
     this.element.className = `Logo ${styles.logo}`
     this.element.innerHTML = `
-      <svg class="Media ${styles.logo__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.6 80.2">
+      <svg class="Media ${styles.logo__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.6 113.9">
         <g id="close">
-          <path fill="none" d="M11.3,31.1l6.3,6.3" />
-          <path fill="none" d="M20.4,40l8.9,9.1" />
-          <path fill="none" d="M29.3,31.1l-18,18" />
+          <path class="st0" d="M125.3,33l16.8,16.8"/>
+          <path class="st0" d="M149.6,56.7l23.7,24.3"/>
+          <path class="st0" d="M173.3,33l-48,48"/>
         </g>
 
         <g id="logo">
-          <path fill="none" d="M40.1,68.4v11.3H0.5" />
-          <path fill="none" d="M0.5,62.7h39.6" />
-          <path fill="none" d="M0.5,51.4h39.6" />
-          <path fill="none" d="M0.5,45.8v-2.8c0-4.7,3.8-8.5,8.5-8.5h0c4.7,0,8.5,3.8,8.5,8.5 v25.5V42.9c0-4.7,3.8-8.5,8.5-8.5h5.7c4.7,0,8.5,3.8,8.5,8.5v2.8" />
-          <path fill="none" d="M28.8,17.5h11.3v11.3h-9c-5.1,0-10-2-13.7-5.7l0,0 c-3.6-3.6-8.5-5.7-13.7-5.7H0.5v11.3" />
-          <path fill="none" d="M0.5,11.8V9c0-4.7,3.8-8.5,8.5-8.5h0c4.7,0,8.5,3.8,8.5,8.5v22.5 V9c0-4.7,3.8-8.5,8.5-8.5h14.1" />
+          <path fill="none" d="M88.9,90.8c-18.7,18.7-49,18.7-67.8,0S2.4,41.7,21.1,23s49-18.7,67.8,0"/>
+          <path fill="none" d="M150.2,8.9h-32.1v96 M150.2,72.9c17.7,0,32.1-14.3,32.1-32s-14.4-32-32.1-32 M182.3,104.9
+          	c0-17.7-14.4-32-32.1-32h-32.1"/>
+          <path fill="none" d="M287.4,104.9v-96 M208.2,8.9v96 M208.2,72.9h79.2"/>
         </g>
       </svg>
     `
@@ -85,8 +83,8 @@ export default class extends Element {
   click () {
     if (!this.isEnabled) return
 
-    if (this.route.indexOf('/project/') > -1) {
-      this.emit('change', '/work')
+    if (this.route.indexOf('/exhibits/') > -1) {
+      this.emit('change', '/exhibits')
     } else {
       this.emit('change', '/')
     }

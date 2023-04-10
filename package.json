@@ -1,9 +1,9 @@
 {
-  "name": "lhbzr",
+  "name": "crh-gallery",
   "version": "1.0.0",
-  "description": "Portfolio of Luis Henrique Bizarro",
-  "author": "Luis Henrique Bizarro",
-  "homepage": "https://github.com/lhbzr/lhbzr.github.io",
+  "description": "Gallery of Chris Ross Harris Photography",
+  "author": "Chris Ross Harris",
+  "homepage": "https://galler.chrisrossharris.com/",
   "scripts": {
     "start": "cross-env NODE_ENV=dev webpack-dev-server --port 3000 --host 0.0.0.0 --progress --config webpack.config.development.js",
     "build": "webpack -p --progress --config webpack.config.build.js",
