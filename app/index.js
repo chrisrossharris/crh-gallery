@@ -111,7 +111,7 @@ class App {
 
   createScene () {
     this.scene = new Scene()
-    this.scene.background = new Color(0xffffff);
+    this.scene.background = new Color(0x000000);
     this.camera = new PerspectiveCamera(45, this.width / this.height, 1, 10000)
     this.camera.position.z = 300
 

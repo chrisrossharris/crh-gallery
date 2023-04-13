@@ -1,7 +1,7 @@
 @import '../../styles/index';
 
 .element {
-  background: $color-black;
+  background: $color-white;
   border-radius: 50%;
   height: 10px;
   mix-blend-mode: difference;
@@ -23,7 +23,7 @@
 
   &:after,
   &:before {
-    border-color: $color-white;
+    border-color: $color-black;
     border-style: solid;
     content: '';
     height: 5px;
