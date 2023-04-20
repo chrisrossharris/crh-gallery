@@ -39,7 +39,7 @@ module.exports = {
     }),
 
     new CnameWebpackPlugin({
-      domain: 'gallery.chrisrossharris.com'
+      domain: 'lhbzr.com'
     }),
 
     new CopyWebpackPlugin([

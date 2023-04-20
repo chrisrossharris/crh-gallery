@@ -18,24 +18,24 @@ export default class extends Page {
 
     const socials = [
       {
-        label: 'Twitter',
-        url: 'https://www.twitter.com/lhbzr/'
-      },
-      {
-        label: 'Tumblr',
-        url: 'http://lhbzr.tumblr.com/'
-      },
-      {
-        label: 'GitHub',
-        url: 'https://www.github.com/lhbzr/'
+        label: 'Instagram',
+        url: 'https://www.instagram.com/chrisrossharris/'
       },
       {
         label: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/lhbzr/'
+        url: 'https://www.linkedin.com/chrisrossharris/'
+      },
+      {
+        label: 'Store',
+        url: 'https://www.store.chrisrossharris.com/'
+      },
+      {
+        label: 'Commercial Portfolio',
+        url: 'https://www.chrisrossharris.com/'
       },
       {
         label: 'Email',
-        url: 'mailto:hello@lhbzr.com'
+        url: 'mailto:info@chrisrossharris.com'
       }
     ]
 

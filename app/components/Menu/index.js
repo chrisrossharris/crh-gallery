@@ -21,10 +21,10 @@ export default class extends Element {
     this.element.className = `Menu ${styles.menu}`
     this.element.innerHTML = `
       <a href="/about" data-index="0" class="Button ${styles.button}">
-      <svg class="${styles.button__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.6 63.3">
-        <path class="Line ${styles.button__path}" d="M129.3,0.4c-4.4,4.4-8.8,8.8-13.3,13.3c-38.7,0-77.3,0-116,0"/>
-        <path class="Line ${styles.button__path}" d="M0,49.7c38.7,0,77.3,0,116,0c4.4,4.4,8.8,8.8,13.3,13.3"/>
-      </svg>
+        <svg class="${styles.button__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.6 63.3">
+          <path class="Line ${styles.button__path}" d="M129.6,13.6c-38.7,0-77.3,0-116,0C9.2,9.2,4.8,4.8,0.4,0.4"/>
+          <path class="Line ${styles.button__path}" d="M0.4,62.9c4.4-4.4,8.8-8.8,13.3-13.3c38.7,0,77.3,0,116,0"/>
+        </svg>
 
         <span class="Text ${styles.button__text}">About</span>
       </a>

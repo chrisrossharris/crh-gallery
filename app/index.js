@@ -19,9 +19,9 @@ import { compact, each, map } from 'lodash'
 import Stats from 'stats.js'
 
 import About from './pages/About'
-import Exhibit from './pages/Exhibit'
+import Project from './pages/Project'
 import Visualization from './pages/Visualization'
-import Exhibits from './pages/Exhibits'
+import Work from './pages/Work'
 
 import { URLS } from './data/URL'
 
@@ -57,13 +57,13 @@ class App {
 
     this.createVisualization()
     this.createAbout()
-    this.createExhibits()
-    this.createExhibit()
+    this.createWork()
+    this.createProject()
 
     this.createBackground()
     this.createLogo()
     this.createMenu()
-    this.createPlayer()
+    //this.createPlayer()
 
     this.setup()
 
@@ -103,6 +103,7 @@ class App {
 
   createRenderer () {
     this.renderer = new WebGLRenderer()
+
     this.renderer.setSize(this.width, this.height)
     this.renderer.context.getShaderInfoLog = () => ''
 
@@ -111,7 +112,7 @@ class App {
 
   createScene () {
     this.scene = new Scene()
-    this.scene.background = new Color(0x000000);
+
     this.camera = new PerspectiveCamera(45, this.width / this.height, 1, 10000)
     this.camera.position.z = 300
 
@@ -155,22 +156,22 @@ class App {
     this.pages.push(this.about)
   }
 
-  createExhibits () {
-    this.exhibits = new Exhibits({
+  createWork () {
+    this.work = new Work({
       camera: this.camera,
       renderer: this.renderer,
       size: Math.min(this.size * 0.8, 300)
     })
 
-    this.scene.add(this.exhibits.wrapper)
+    this.scene.add(this.work.wrapper)
 
-    this.pages.push(this.exhibits)
+    this.pages.push(this.work)
   }
 
-  createExhibit () {
-    this.exhibit = new Exhibit()
+  createProject () {
+    this.project = new Project()
 
-    this.pages.push(this.exhibit)
+    this.pages.push(this.project)
   }
 
   createBackground () {
@@ -214,7 +215,7 @@ class App {
       if ((element.appear && url === '/') || element.name === 'Logo') element.show()
     })
 
-    this.exhibits.activate()
+    this.work.activate()
 
     this.onChange(url)
   }
@@ -258,7 +259,7 @@ class App {
       })
 
       if (push) {
-        window.history.pushState({ page: this.url }, 'Chris Ross Harris - Gallery', this.url)
+        window.history.pushState({ page: this.url }, 'Luis Henrique Bizarro — Creative Front End Developer', this.url)
       }
 
       if (this.cursor) {
@@ -291,7 +292,7 @@ class App {
 
     this.background.update()
     this.visualization.update()
-    this.exhibits.update()
+    this.work.update()
 
     if (this.stats) {
       this.stats.end()

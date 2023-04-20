@@ -8,7 +8,7 @@ import Element from '../../classes/Element'
 
 import styles from './styles.scss'
 
-import Data from '../../data/Exhibits'
+import Data from '../../data/Work'
 
 export default class extends Element {
   constructor () {
@@ -19,11 +19,12 @@ export default class extends Element {
 
     this.element.className = `Preloader ${styles.preloader}`
     this.element.innerHTML = `
-      <svg class="${styles.preloader__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.6 113.9">
-        <path class="Path" fill="none" d="M88.9,90.8c-18.7,18.7-49,18.7-67.8,0S2.4,41.7,21.1,23s49-18.7,67.8,0"/>
-        <path class="Path" fill="none" d="M150.2,8.9h-32.1v96 M150.2,72.9c17.7,0,32.1-14.3,32.1-32s-14.4-32-32.1-32 M182.3,104.9
-          c0-17.7-14.4-32-32.1-32h-32.1"/>
-        <path class="Path" fill="none" d="M287.4,104.9v-96 M208.2,8.9v96 M208.2,72.9h79.2"/>
+      <svg class="${styles.preloader__media}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.6 80.2">
+        <path class="Path" fill="none" d="M3.4,49.9c-5.4,5.4-14.2,5.4-19.7,0s-5.4-14.2,0-19.7s14.2-5.4,19.7,0"/>
+      	<path class="Path" fill="none" d="M21.2,26.2h-9.3V54 M21.2,44.7c5.1,0,9.3-4.1,9.3-9.3s-4.2-9.3-9.3-9.3 M30.5,54c0-5.1-4.2-9.3-9.3-9.3h-9.3"
+      		/>
+      	<path class="Path" fill="none" d="M61,54V26.2 M38,26.2V54 M38,44.7h23"/>
+
       </svg>
     `
 
