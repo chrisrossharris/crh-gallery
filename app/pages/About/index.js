@@ -22,20 +22,12 @@ export default class extends Page {
         url: 'https://www.instagram.com/chrisrossharris/'
       },
       {
-        label: 'LinkedIn',
-        url: 'https://www.linkedin.com/chrisrossharris/'
-      },
-      {
         label: 'Store',
         url: 'https://www.store.chrisrossharris.com/'
       },
       {
         label: 'Commercial Portfolio',
         url: 'https://www.chrisrossharris.com/'
-      },
-      {
-        label: 'Email',
-        url: 'mailto:info@chrisrossharris.com'
       }
     ]
 

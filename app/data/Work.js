@@ -27,31 +27,79 @@ export default [
         type: 'screenshot',
         source: require('../assets/case/kentucky-roads/1.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
       },
       {
         type: 'screenshot',
         source: require('../assets/case/kentucky-roads/2.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
       },
       {
         type: 'screenshot',
         source: require('../assets/case/kentucky-roads/3.jpg'),
         height: 1080,
-        width: 1920
+        width: 3523
       },
       {
         type: 'screenshot',
         source: require('../assets/case/kentucky-roads/4.jpg'),
         height: 1080,
-        width: 1920
+        width: 3227
       },
       {
         type: 'screenshot',
         source: require('../assets/case/kentucky-roads/5.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/6.jpg'),
+        height: 1080,
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/7.jpg'),
+        height: 1080,
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/8.jpg'),
+        height: 1080,
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/9.jpg'),
+        height: 1080,
+        width: 1636
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/10.jpg'),
+        height: 1080,
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/11.jpg'),
+        height: 1080,
+        width: 1636
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/12.jpg'),
+        height: 1080,
+        width: 1620
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/kentucky-roads/13.jpg'),
+        height: 1080,
+        width: 1636
       }
     ]
   },
@@ -79,14 +127,14 @@ export default [
       {
         type: 'screenshot',
         source: require('../assets/case/bimini/1.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1333,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/bimini/2.jpg'),
-        height: 1080,
-        width: 1920
+        height: 2000,
+        width: 3000
       },
       {
         type: 'screenshot',
@@ -98,7 +146,7 @@ export default [
         type: 'screenshot',
         source: require('../assets/case/bimini/4.jpg'),
         height: 1080,
-        width: 1920
+        width: 2954
       }
     ]
   },
@@ -268,92 +316,92 @@ export default [
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/1.jpg'),
-        height: 1080,
-        width: 1920
+        height: 910,
+        width: 1366
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/2.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1332,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/3.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1332,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/4.jpg'),
         height: 1080,
-        width: 1920
+        width: 1621
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/5.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1332,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/6.jpg'),
         height: 1080,
-        width: 1920
+        width: 1621
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/7.jpg'),
         height: 1080,
-        width: 1920
+        width: 1512
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/8.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/9.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
       },
       {
-        type: 'screenshot',
+        type: 'portrait',
         source: require('../assets/case/eleuthera/10.jpg'),
-        height: 1080,
-        width: 1920
+        height: 2000,
+        width: 1333
       },
       {
-        type: 'screenshot',
+        type: 'portrait',
         source: require('../assets/case/eleuthera/11.jpg'),
-        height: 1080,
-        width: 1920
+        height: 2000,
+        width: 1333
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/12.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1333,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/13.jpg'),
         height: 1080,
-        width: 1920
+        width: 1512
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/14.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1333,
+        width: 2000
       },
       {
         type: 'screenshot',
         source: require('../assets/case/eleuthera/15.jpg'),
         height: 1080,
-        width: 1920
+        width: 1620
       }
     ]
   },
@@ -712,32 +760,38 @@ export default [
       {
         type: 'screenshot',
         source: require('../assets/case/california/1.jpg'),
-        height: 1080,
-        width: 1920
+        height: 768,
+        width: 1366
       },
       {
         type: 'screenshot',
         source: require('../assets/case/california/2.jpg'),
-        height: 1080,
-        width: 1920
+        height: 768,
+        width: 1366
       },
       {
         type: 'screenshot',
         source: require('../assets/case/california/3.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1500,
+        width: 2250
       },
       {
         type: 'screenshot',
         source: require('../assets/case/california/4.jpg'),
-        height: 1080,
-        width: 1920
+        height: 1500,
+        width: 2250
       },
       {
         type: 'screenshot',
         source: require('../assets/case/california/5.jpg'),
+        height: 1333,
+        width: 2000
+      },
+      {
+        type: 'screenshot',
+        source: require('../assets/case/california/6.jpg'),
         height: 1080,
-        width: 1920
+        width: 1684
       }
     ]
   },

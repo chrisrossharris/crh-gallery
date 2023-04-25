@@ -74,7 +74,7 @@ export default class extends EventEmitter {
 
   onScrollMouseWheel (event) {
     let delta = -event.wheelDeltaY || event.deltaY
-    let speed = 75
+    let speed = 25
 
     if (delta < 0) speed *= -1
 

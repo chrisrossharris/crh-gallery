@@ -187,7 +187,7 @@ export default class extends Page {
     if (!this.isActive) return
 
     let delta = event.wheelDeltaY || -event.deltaY
-    let speed = 75
+    let speed = 15
 
     if (delta < 0) speed *= -1
 
